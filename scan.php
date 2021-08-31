@@ -158,7 +158,7 @@ $prev_files = $files = array();
 			$email_body .= '<p>Site Scanning Code</p>';
 			
 			 //Put your domain here, without http,https or www
-			$domain = 'pomoconline.com';
+			$domain = 'domain.com';
 			$headers = "MIME-Version: 1.0" . "\r\n";
 			$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 			
@@ -167,7 +167,7 @@ $prev_files = $files = array();
 			$headers .= 'From: Site Scanner <'.$from.'>' . "\r\n";
 			
 			//Email where the scan results will be sent
-			$to = 'spawn256@gmail.com';
+			$to = 'email@webmail.com';
 			
 			//Subject of the email
 			$subject='[Important]Site Scanner Results';
