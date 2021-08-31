@@ -9,7 +9,7 @@ $OUTPUT_FOLDER = $THIS_DIRECTORY. DIRECTORY_SEPARATOR .'output';
 define('OUTPUT_FOLDER',$OUTPUT_FOLDER);
 
 //Maximum time files can stay in the output folder
-$lifetime = 60 * 60 * 24 * 7; //set to 24 hours
+$lifetime = 60 * 60 * 24 * 7; //set to 1 week
 define('FILE_LIFETIME',$lifetime);
 
 /************************************************************/
